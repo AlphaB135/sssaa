@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Mali:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body{
+    font-family: "Mali", "Roboto", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header{
+    font-family: "Roboto";
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 10px 20px;
+    border-bottom: 2px solid #ccc;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(255, 82, 140);
+}
+
+.logo span{
+    color: black;
+}
+
+.bar{
+    display: flex;
+    gap: 25px;
+}
+
+.bar a{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px
+}
+
+.bar a:hover{
+    text-decoration: underline;
+    color: rgb(255, 82, 140);
+}
+
+.all{
+    max-width: 1300px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+h1{
+    text-align: center;
+    color: rgb(255, 82, 140);
+    margin-bottom: 20px;
+}
+
+p{
+    margin: 10px 0;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    border-top: 3px solid black;
+    border-bottom: 2px solid black;
+    margin-bottom: 20px;
+    padding: 10px 0;
+}
+
+nav ul li{
+    margin: 0 20px;
+}
+
+nav ul li a{
+    color: black;
+    font-size: 15px;
+}
+
+nav ul li a:hover{
+    color: rgb(255, 82, 140);
+    font-size: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+}
+
+th {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    border: 1px solid #ddd;
+}
+
+td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+td[colspan="4"] {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #d9d9d9;
+    border: none;
+}
+
+img{
+    display: block;
+    margin: 20px auto;
+    max-width: 100%;
+    width: 550px;
+    border-radius: 8px;
+}
+
+h3{
+    margin-top: 30px;
+    color: rgb(255, 82, 140);
+    text-decoration: underline;
+}
+
+ul, ol{
+    margin: 10px 0 20px 20px;
+}
+
+ul li, ol li{
+    margin: 5px 0;
+}
+
+nav a{
+    color: plum;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.inputall {
+    width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+}
+  
+.inputall p{
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+  
+.inputall label{
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+}
+  
+.inputall input[type="text"], .inputall textarea{
+    width: 80%;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f4f7f9;
+    padding: 8px;
+    box-sizing: border-box;
+}
+  
+.inputall input[type="submit"], .inputall input[type="reset"]{
+    background-color: #ffb3c1;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 10px 5px;
+}
+  
+.inputall input[type="submit"]:hover,
+.inputall input[type="reset"]:hover{
+    background-color: #ff9f94;
+}

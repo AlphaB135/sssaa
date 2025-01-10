@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <div>SASI<span>PORT</span></div>
+        </div>
+
+        <div class="bar">
+            <a href="/home.html">HOME</a>
+            <a href="menu.html">MENU</a>
+            <a href="form.html">FORM</a>
+            <a href="music.html">MUSIC SHOP</a>
+            <a href="adjust.html">ADJUST MENU</a>
+        </div>
+    </div>
+
+    <h1>Form Element</h1>
+    <form action="www.example.com" method="get">
+      <p>
+        <label for="fullname">Fullname : </label>
+        <input type="text" name="fullname" />
+      </p>
+
+      <p>
+        <label for="username">Username : </label>
+        <input type="text" name="username" />
+      </p>
+
+      <p>
+        <label for="password">Password : </label>
+        <input type="password" name="password" />
+      </p>
+
+      <p>
+        <label for="gender">Gender : </label>
+        <input type="radio" name="gender" />Female
+        <input type="radio" name="gender" />Male
+        <input type="radio" name="gender" />Underfined
+      </p>
+
+      <p>
+        <label for="source">Source : </label>
+        <input type="checkbox" name="source" />Friend
+        <input type="checkbox" name="source" />Social Media
+        <input type="checkbox" name="source" />Newspaper
+      </p>
+
+      <p>
+        <label for="address">Address : </label>
+        <textarea name="address" cols="20" rows="4"></textarea>
+      </p>
+
+      <p>
+        <label for="province">Province : </label>
+        <select name="province">
+          <option value="bangkok">BKK</option>
+          <option value="surat">Suratthani</option>
+        </select>
+      </p>
+
+      <p>
+        <input type="submit" name="ok" value="OK" />
+        <input type="reset" name="cancel" value="Cancel" />
+      </p>
+    </form>
+</body>
+</html>
