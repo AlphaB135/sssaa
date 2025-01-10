@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body{
+    font-family: "Roboto", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    padding: 10px 20px;
+    border-bottom: 2px solid #ccc;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+    color: rgb(255, 82, 140);
+}
+
+.logo span{
+    color: black;
+}
+
+.bar{
+    display: flex;
+    gap: 25px;
+}
+
+.bar a{
+    text-decoration: none;
+    color: #000;
+    font-size: 14px
+}
+
+.bar a:hover{
+    text-decoration: underline;
+    color: rgb(255, 82, 140);
+}
+
+.body{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    max-width: 1200px;
+    margin: 0 auto;
+    height: 70vh;
+    margin-top: 20px;
+}
+
+.body text{
+    max-width: 600px;
+    text-align: left;
+}
+
+.body img{
+    max-width: 400px;
+    border-radius: 50%;
+    border: 5px solid #ddd;
+    margin-left: 20px;
+    margin-top: 50px;
+
+}
+
+.body h1{
+    font-size: 48px;
+    margin: 10px 0;
+    color: #000;
+}
+
+.body h3{
+    font-size: 20px;
+    margin: 5px 0;
+    color: rgb(255, 82, 140);
+}
+
+.body p{
+    font-size: 16px;
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
